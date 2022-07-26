@@ -61,3 +61,23 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*présentation*/
+
+.présentation h2{
+    font-weight: 600;
+    color: #048ABF;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+     
+
+}  
+ 
+.présentation p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
