@@ -704,7 +704,7 @@ h1 {
 /*Vision*/
 
 
-.Role{
+.Vision{
     word-wrap: break-word;
     margin: 50px 70px;  
     padding: 50px 80px;    
@@ -720,7 +720,7 @@ h1 {
      }
 
 
-.Role img {
+.Vision img {
     grid-area: pic; 
     align-self: flex-end;
     height: 300px;
@@ -728,7 +728,7 @@ h1 {
     
          }
 
-.Role h3{
+.Vision h3{
     grid-area: title ;
     align-self: flex-end;
     color: #048ABF;
@@ -736,7 +736,7 @@ h1 {
    
         }
 
-.Role p{
+.Vision p{
     grid-area: text ;
     text-align: center;
     align-self: center;
@@ -747,7 +747,7 @@ h1 {
 
 /*Evenement*/
 
-.Evenement{
+.Evènement{
     word-wrap: break-word;
     margin: 50px 70px;  
     padding: 50px 80px;    
@@ -766,7 +766,7 @@ h1 {
      
 } 
 
-.Evenement img {
+.Evènement img {
     grid-area: pic; 
     align-self: flex-end;
     height: 300px;
@@ -774,14 +774,14 @@ h1 {
     
 }
 
-.Evenement h3{
+.Evènement h3{
     grid-area: title;
     align-self: center;
     color: #048ABF;
     margin-top: 50px;
 }
 
-.Evenement p{
+.Evènement p{
     grid-area: text ;
     text-align: center;
     align-self: center;
