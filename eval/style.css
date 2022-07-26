@@ -45,3 +45,19 @@ header{
 .nav-header a:hover {
     color: #0477BF;
 }
+
+/*bannière*/
+
+.bannière{
+    background: url(../test/pexels-enzo-muñoz-6729354.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 85%;
+}
+
+.bannière-event{
+    background: url(../test/pexels-cong-h-1492219.jpg);
+    opacity: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
