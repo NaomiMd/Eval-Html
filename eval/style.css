@@ -6,3 +6,42 @@
     word-wrap: break-word;
     color: black;
 }
+
+.logo-header{
+    width: 300px;
+    height: auto; 
+    
+}
+
+/*en-tête*/
+
+header{
+    padding: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*navigation*/
+
+.nav-header{
+    background-color: #ffe9cfbe;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    
+
+}
+
+.nav-header a {
+    padding: 0 15px;
+    
+}
+   
+.nav-header a:hover {
+    color: #0477BF;
+}
