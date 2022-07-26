@@ -351,3 +351,258 @@ a {
       
  }
 }
+
+
+/*MEDIA TABLETTE*/
+
+@media screen and (min-width: 600px) and (max-width:1999px) {
+    
+    main{
+        width: 100%;
+
+    }
+
+    .bannière{
+        height: 250px;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        
+    }
+
+    h1 {
+        padding-top: 100px;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.60;
+        
+     
+    }
+
+    .présentation h2{
+        font-size: 120%;
+        padding-bottom: 5px;
+    }
+    
+
+    .présentation  p {
+        padding: 0 15px 20px 15px;
+        line-height: 1.50;
+    }
+
+    .Mission{
+       padding: 20px;
+       background-color: #ffe9cf9e;
+       line-height: 1.60;
+    }
+    
+
+    .Mission img{
+        display: block;
+        width: 320px;
+        height: 250px;
+        padding: 15px 0 15px 0;
+    }
+  
+    .Mission h3 {
+        padding : 0 0 5px 10px;
+        color: #048ABF;
+    }
+
+    .Mission p {
+        padding: 0 10px 10px 10px;
+        text-align: justify;
+    }
+
+    .Vision {
+        padding: 20px;
+        line-height: 1.60;
+        background-color: white;
+     }
+     
+ 
+     .Vision img {
+         display: block;
+         width: 320px;
+         height: 250px;
+         padding-bottom: 15px;
+         padding-top: 5px;
+     }
+   
+     .Vision h3 {
+         padding : 0 0 5px 10px;
+         color: #048ABF;
+     }
+ 
+     .Vision p {
+        padding: 0 10px 15px 10px;
+        text-align: justify;
+        word-wrap: break-word;
+         
+     }
+
+
+     .Evènement{
+        padding: 20px;
+        line-height: 1.60;
+        background-color: #ffe9cf9e;
+     }
+     
+ 
+     .Evènement img{
+         display: block;
+         width: 320px;
+         height: 250px;
+         padding-bottom: 15px;
+         padding-top: 5px;
+     }
+   
+     .Evènement h3 {
+         padding : 0 0 5px 10px;
+         color: #048ABF;
+     }
+ 
+     .Evènement p {
+        padding: 0 10px 15px 10px;
+        text-align: justify;
+        word-wrap: break-word;
+         
+     }
+
+     .button{
+        margin-top: 30px;
+        background-color:#0477BF;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display:  flex;
+        justify-content: center;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        
+      }
+    
+     footer{
+        background-color: #FFE9CF;
+        margin-top: 100px;
+        padding: 10px 0 ;
+         
+
+        
+        
+        
+    }
+    
+    .logo-footer{
+        width: 45%;
+        height: auto;
+        padding : 15px 0 ;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    
+    
+    .reseaux {
+       padding: 0 40px 20px 10px  ;
+    }
+    
+    h4{
+        padding-bottom: 15px;
+        font-size: 15px;
+        font-weight: 400;
+         display: flex;
+       justify-content: flex-start;
+       color: #0477BF;
+         
+    }
+    
+    .reseaux a {
+        height: 20px;
+        width: 20px; 
+        display: inline-flex;
+        padding-left: 20px;
+    
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 10px;
+    }
+    
+
+/*EVENT PAGE*/
+
+.bannière-event{
+    height: 250px;
+    background-position: 50%;
+     
+    
+     
+}
+
+
+
+.presentation-event h2{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+
+.presentation-event {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    
+   
+}
+
+.event-actuel{
+    padding: 20px;
+    line-height: 1.50;
+ }
+ 
+
+ .event-actuel img{
+     display: block;
+     width: 320px;
+     height: 250px;
+     padding: 15px 0 15px 0;
+     
+ }
+
+ .event-actuel p {
+     padding: 0 10px 10px 10px;
+     text-align: justify;
+     font-weight: 300;
+     font-size: 18px;
+    
+      
+ }
+
+ .stand {
+    padding: 20px;
+    line-height: 1.65;
+    
+ }
+ 
+.stand h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0477BF;
+ }
+
+ .stand p {
+     padding: 0 10px 10px 10px;
+     text-align: justify;
+    font-weight: 300;
+    font-size: 15px;
+      
+  }
+ }
