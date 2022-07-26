@@ -81,3 +81,12 @@ header{
     
 }
 
+.button:hover {
+    background-color:#04B2D9;
+    color: white;
+  }
+
+a {
+    outline: none;
+    text-decoration: none;
+}
